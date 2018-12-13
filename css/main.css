@@ -8,13 +8,6 @@ html, body, .grid-container { height: 150vh; margin: 0; }
 {
     display: none;
 }
-  
-  .previewImage { grid-area: previewImg; }
-  
-  .content { grid-area: Content; }
-  
-  .footer { grid-area: footer; }
-
 .grid-container
 {
     display: grid;
