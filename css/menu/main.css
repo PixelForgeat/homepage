@@ -1,0 +1,9 @@
+.menu
+{
+    background: rgba(50, 50, 50, 0.8);
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+    margin-top: 70px;
+    position: absolute;
+}

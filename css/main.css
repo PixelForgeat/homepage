@@ -1,0 +1,26 @@
+@import url('loadingscreen.css');
+@import url('content/main.css');
+@import url('footer/main.css');
+@import url('menu/main.css');
+@import url('previewImage/main.css');
+html, body, .grid-container { height: 150vh; margin: 0; }
+.hidden-while-loading
+{
+    display: none;
+}
+  
+  .previewImage { grid-area: previewImg; }
+  
+  .content { grid-area: Content; }
+  
+  .footer { grid-area: footer; }
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "previewImg Content"
+        "footer footer";
+}

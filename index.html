@@ -5,10 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PixelForge - Startseite</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
 </head>
-<body>
-    
+<body onload="loaded()" id ="body">
+    <div class="loadingscreen" id="loadingscreen" >
+        <div class="loader-logo">
+            <img src="images/placeHolderLogo.png">
+        </div>
+        <div class="spinner-wrapper">
+            <div class="spinner1">
+            </div>
+            <div class="spinner2">
+            </div>
+        </div>    
+    </div><!---loadingscreen-->
+    <div class="menu" id="menu"></div>
+
+
+    <div id="hidden-while-loading" class="hidden-while-loading">
+
+        <div class="grid-container" id="grid-container">
+            <div class ="previewImage"></div>
+            <div class="content"></div>
+
+            <div class="footer"></div>
+        </div>
+    </div><!------hidden-while-loading------->
 </body>
 </html>
