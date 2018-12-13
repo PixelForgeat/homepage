@@ -3,13 +3,17 @@
 @import url('footer/main.css');
 @import url('menu/main.css');
 @import url('previewImage/main.css');
-html, body, .grid-container { height: 150vh; margin: 0; }
+html, body { margin: 0; }
+
+body { overflow: hidden; }
+
 .hidden-while-loading
 {
     display: none;
 }
 .grid-container
 {
+    height: 150vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;

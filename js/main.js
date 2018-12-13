@@ -1,7 +1,10 @@
 function loaded(){
     setTimeout(function(){
         document.getElementById("loadingscreen").style.animation = "fadeout 1s ease"
-        setTimeout(function(){document.getElementById("loadingscreen").style.display = "none";},1000);
+        setTimeout(function(){
+            document.getElementById("loadingscreen").style.display = "none";
+            document.getElementById("body").style.overflow = "initial";
+        },700);
         document.getElementById("hidden-while-loading").style.display = "block";
     },500)
     Start();
